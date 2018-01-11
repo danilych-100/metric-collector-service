@@ -1,0 +1,11 @@
+logging:
+    config: C:\Users\Danil\IdeaProjects\metric-collector-service\src\main\resources\logback.xml
+    metrics:
+        enabled: true
+    report-frequency: 30
+    logstash:
+        host: 192.168.10.25
+        port: 514
+        queueSize: 100
+metrics:
+    host: 127.0.0.1
