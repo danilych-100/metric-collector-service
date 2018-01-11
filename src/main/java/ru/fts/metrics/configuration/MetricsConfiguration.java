@@ -12,7 +12,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import ru.fts.metrics.mqmetrics.MQMetricSet;
-import ru.fts.metrics.servicesmetric.ServicesMetricSet;
+import ru.fts.metrics.servicesmetrics.ServicesMetricSet;
 import ru.fts.metrics.systemmetrics.*;
 
 import javax.annotation.PostConstruct;
